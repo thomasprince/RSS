@@ -1,0 +1,107 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[A.~Ansar(2017)]{Ansar:PWRSSM}
+R.~. A.~A. A.~Ansar, S & A.~Khan.
+\newblock A phase wise review of software security metrics.
+\newblock \emph{International Journal of Software Engineering for Smart
+  Device}, 1:\penalty0 25--34, 2017.
+\newblock \doi{10.21742/ijsesd.2017.4.1.03}.
+
+\bibitem[Alkussayer and Allen(2010)]{5564015}
+A.~Alkussayer and W.~H. Allen.
+\newblock A scenario-based framework for the security evaluation of software
+  architecture.
+\newblock In \emph{2010 3rd International Conference on Computer Science and
+  Information Technology}, volume~5, pages 687--695, July 2010.
+\newblock \doi{10.1109/ICCSIT.2010.5564015}.
+
+\bibitem[{Eclipse Foundation}(2007)]{AspectJ2007}
+{Eclipse Foundation}.
+\newblock {AspectJ} -- homepage, 2007.
+\newblock URL \url{http://www.eclipse.org/aspectj/}.
+\newblock Last visited November 14, 2007.
+
+\bibitem[Elahi et~al.(2011)Elahi, Yu, and Zannone]{6165757}
+G.~Elahi, E.~Yu, and N.~Zannone.
+\newblock Security risk management by qualitative vulnerability analysis.
+\newblock In \emph{2011 Third International Workshop on Security Measurements
+  and Metrics}, pages 1--10, Sept 2011.
+\newblock \doi{10.1109/Metrisec.2011.12}.
+
+\bibitem[Halkidis et~al.(2006)Halkidis, Chatzigeorgiou, and
+  Stephanides]{Halkidis:2006:QAS:2639528.2639723}
+S.~T. Halkidis, A.~Chatzigeorgiou, and G.~Stephanides.
+\newblock A qualitative analysis of software security patterns.
+\newblock \emph{Comput. Secur.}, 25\penalty0 (5):\penalty0 379--392, July 2006.
+\newblock ISSN 0167-4048.
+\newblock \doi{10.1016/j.cose.2006.03.002}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.cose.2006.03.002}.
+
+\bibitem[Hiroyuki~Okamura and Dohi(2013)]{Okamura:2013:QSESVD}
+M.~T. Hiroyuki~Okamura and T.~Dohi.
+\newblock Quantitative security evaluation for software system from
+  vulnerability database.
+\newblock \emph{Journal of Software Engineering and Applications}, 06\penalty0
+  (04):\penalty0 15--23, april 2013.
+\newblock \doi{10.4236/jsea.2013.64A003}.
+\newblock URL
+  \url{http://www.scirp.org/journal/PaperInformation.aspx?PaperID=30073}.
+
+\bibitem[Jain et~al.(2017)Jain, Tsai, and
+  Porter]{Jain:2017:CAE:3102980.3102991}
+B.~Jain, C.-C. Tsai, and D.~E. Porter.
+\newblock A clairvoyant approach to evaluating software (in)security.
+\newblock In \emph{Proceedings of the 16th Workshop on Hot Topics in Operating
+  Systems}, HotOS '17, pages 62--68, New York, NY, USA, 2017. ACM.
+\newblock ISBN 978-1-4503-5068-6.
+\newblock \doi{10.1145/3102980.3102991}.
+\newblock URL \url{http://doi.acm.org/10.1145/3102980.3102991}.
+
+\bibitem[Madan et~al.(2002)Madan, Gogeva-Popstojanova, Vaidyanathan, and
+  Trivedi]{1028941}
+B.~B. Madan, K.~Gogeva-Popstojanova, K.~Vaidyanathan, and K.~S. Trivedi.
+\newblock Modeling and quantification of security attributes of software
+  systems.
+\newblock In \emph{Proceedings International Conference on Dependable Systems
+  and Networks}, pages 505--514, June 2002.
+\newblock \doi{10.1109/DSN.2002.1028941}.
+
+\bibitem[Nicol et~al.(2004)Nicol, Sanders, and Trivedi]{1335467}
+D.~M. Nicol, W.~H. Sanders, and K.~S. Trivedi.
+\newblock Model-based evaluation: from dependability to security.
+\newblock \emph{IEEE Transactions on Dependable and Secure Computing},
+  1\penalty0 (1):\penalty0 48--65, Jan 2004.
+\newblock ISSN 1545-5971.
+\newblock \doi{10.1109/TDSC.2004.11}.
+
+\bibitem[Pendleton et~al.(2016)Pendleton, Garcia-Lebron, Cho, and
+  Xu]{Pendleton:2016:SSS:3022634.3005714}
+M.~Pendleton, R.~Garcia-Lebron, J.-H. Cho, and S.~Xu.
+\newblock A survey on systems security metrics.
+\newblock \emph{ACM Comput. Surv.}, 49\penalty0 (4):\penalty0 62:1--62:35, Dec.
+  2016.
+\newblock ISSN 0360-0300.
+\newblock \doi{10.1145/3005714}.
+\newblock URL \url{http://doi.acm.org/10.1145/3005714}.
+
+\bibitem[Shaw(2003)]{Shaw2003WritingGoodSoftwareEngineeringResearchPapersMinitutorial}
+M.~Shaw.
+\newblock Writing good software engineering research papers: minitutorial.
+\newblock In \emph{Proceedings of the 25th International Conference on Software
+  Engineering (ICSE 2003)}, pages 726--736, Washington, DC, USA, 2003. IEEE
+  Computer Society.
+\newblock ISBN 0-7695-1877-X.
+
+\bibitem[Vache(2009)]{5315969}
+G.~Vache.
+\newblock Vulnerability analysis for a quantitative security evaluation.
+\newblock In \emph{2009 3rd International Symposium on Empirical Software
+  Engineering and Measurement}, pages 526--534, Oct 2009.
+\newblock \doi{10.1109/ESEM.2009.5315969}.
+
+\end{thebibliography}

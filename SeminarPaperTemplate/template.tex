@@ -1,0 +1,170 @@
+\documentclass[pdftex,english,oribibl]{llncs}
+
+%% Spracheinstellungen laden
+\usepackage[english]{babel}
+
+%% Schriftart in der Ausgabe/Eingabe
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[latin1]{inputenc}
+
+%% Zitate
+\usepackage[numbers]{natbib}
+\bibliographystyle{abbrvnat}
+\bibliographystyle{abnt-num}
+%\bibliographystyle{dinat}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{splncs}
+%% Similar to option "sectionbib" but \refname instead of \bibname
+\makeatletter
+\renewcommand\bibsection{\section*{\refname\@mkboth{\MakeUppercase{\refname}}{\MakeUppercase{\refname}}}}
+\makeatother
+
+%% Index
+%\usepackage{makeidx}
+%\makeindex
+
+%% PDF Einstellungen
+% muss nach natbib geladen werden!
+\usepackage{nameref}
+\usepackage{varioref}
+\usepackage[pdfusetitle,pdftex,colorlinks]{hyperref}
+\hypersetup{pdfborder={0 0 0}}
+\hypersetup{bookmarksdepth=3}
+\hypersetup{bookmarksopen=true}
+\hypersetup{bookmarksopenlevel=1}
+\hypersetup{bookmarksnumbered=true}
+\usepackage{color}
+\hypersetup{colorlinks=false}
+
+%\usepackage[section]{tocbibind}
+
+\makeatletter
+\gdef\@keywords{}
+\def\keywords#1{\gdef\@keywords{#1}}
+\gdef\@subtitle{}
+\def\subtitle#1{\gdef\@subtitle{#1}}
+
+%% modified from llncs
+\renewenvironment{abstract}{%
+  \list{}{\advance\topsep by0.35cm\relax\small%
+          \leftmargin=1cm%
+          \labelwidth=\z@%
+          \listparindent=\z@%
+          \itemindent\listparindent%
+          \rightmargin\leftmargin}%
+          \item[\hskip\labelsep\bfseries\abstractname]}{%
+  \if!\@keywords!\else{\item[~]\item[\hskip\labelsep\bfseries\keywordname]\@keywords}\fi%
+  \endlist}
+
+\AtBeginDocument{%
+  \if!\@subtitle!\else\hypersetup{pdfsubject={\@subtitle}}\fi
+  \if!\@keywords!\else\hypersetup{pdfkeywords={\@keywords}}\fi
+}
+\makeatother
+
+% llncs hyperref fix
+\makeatletter
+\providecommand*{\toclevel@author}{0}
+\providecommand*{\toclevel@title}{0}
+\makeatother
+
+%% Grafiken
+\usepackage[pdftex]{graphicx}
+\DeclareGraphicsExtensions{.pdf,.jpg,.png}
+\usepackage{subfigure}
+
+%% Mathe
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%% Listings
+\usepackage{listings}
+\lstset{escapechar=\%, frame=tb, basicstyle=\footnotesize}
+
+%% Sonstiges
+\newcommand{\TODO}[1]{\par\textcolor{red}{#1}\marginpar{\textcolor{red}{TODO}}}
+\newcommand{\TODOX}[1]{\textcolor{red}{#1}\marginpar{\textcolor{red}{TODO}}}
+\pagestyle{plain}
+
+% Keine "Schusterjungen"
+\clubpenalty = 10000
+% Keine "Hurenkinder"
+\widowpenalty = 10000 \displaywidowpenalty = 10000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% BEGIN DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Security Evaluation}
+% \subtitle{My (optional) Subtitle}
+\author{Prince Thomas}
+\institute{University of Stuttgart\\Institute of Software Technology (ISTE)\\70569 Stuttgart, Germany}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Software security is an idea implemented to secure/protect software against malicious attack and other hacker risks so that the software continues to function correctly under such potential risks. Security is necessary to provide integrity, authentication and availability. The fast growth rate of software and software products makes the software security aspect even more critical. In this survey we are performing a study on Software Security Evaluation techniques. A detailed analysis of Qualitative and Quantitative Security Evaluation approaches is being carried out. The suitability and challenges of different methods of each of this approach is studied. The examples of real time scenarios where these techniques are being used are investigated to understand the performance of these techniques. Finally, the paper is concluded with the scope of the different security evaluation approaches for real time systems.
+\end{abstract}
+
+\section{Introduction}
+
+  The fast-growing software systems and huge amount of data handling makes the software security an important aspect in Modern software development. Software security has to be evaluated to make sure that software is minimally susceptible to threats. Evaluation of software security is so challenging because of the non-predictability of the threats and attacker behaviours.
+
+  Introduce the different sections of this paper shortly in one or two sentences.
+
+  
+\section{Importance of Security Evaluation}
+Why do we need Security Evaluation?
+
+\section{Software Security Metrics}
+Metrics used in Security Evaluation
+\subsection{Importance of Software Security Metrics}
+Significance of security Metrics
+\subsection{Brief overview of major Security Metrics}
+Overview of different  Security Metrics\newline
+
+	Security Metrics for Software Systems\cite{Wang:2009:SMS:1566445.1566509}\newline
+	"Citation is missing" the paper name: Security Metrics for Software Systems\newline
+	Phase Wise Review of Software Security Metrics\cite{Ansar:PWRSSM}\newline
+	Survey on Systems Security Metrics\cite{Pendleton:2016:SSS:3022634.3005714}\newline
+	
+\section{Qualitative Software Security Evaluation Methods}
+Different qualitative evaluation methods will be explained here.\newline
+A short introduction about the qualitative approaches.\newline
+Different subsections for different methods.\newline
+Challenges of Qualitative Security Evaluation.\newline
+
+	Qualitative analyzis of software security patterns\cite{5564015}\newline
+ 	Scenario based Security Evaluation\cite{Halkidis:2006:QAS:2639528.2639723}\newline
+  	Vulnerability-centric and qualitative risk analysis method\cite{6165757}\newline
+  	Software System with Vulnerability Life Cycle and User Profiles\cite{6532147}\newline
+  	"Citation is missing" the paper name: Security Evaluation for Software System with Vulnerability Life Cycle and User Profiles\newline
+  
+\section{Quantitative Software Security Evaluation Methods}
+Different quantitative evaluation methods will be explained here.\newline
+A short introduction about the quantitative approaches.\newline
+Different subsections for different methods.\newline
+Challenges of Quantitative Security Evaluation.\newline
+
+  	Quantifying the security attribute of an intrusion tolerant system\cite{1028941}\newline
+  	Quantitative Security Evaluation for Software System from Vulnerability Database\cite{Okamura:2013:QSESVD}\newline
+ 	Model Based Evaluation, Stochastic approaches\cite{1335467}\newline
+  	Quantitative evaluation:the vulnerability life cycle; and the attacker behaviour\cite{5315969}\newline
+  	Machine learning and CVE data base to predict the vulnerabilities in the software\cite{Jain:2017:CAE:3102980.3102991}\newline
+  	
+\section{Case Study}
+Different Real time examples where these security evaluation techniques are being used.\newline
+
+	\cite{Kotenko}\newline
+	"Citation is missing" the paper name: Attack Modelling and Security Evaluation in SIEM Systems\newline
+	
+\section{Conclusions}\label{sec:conclusions}
+Mention the importance of the security evaluation again and scope of the same in real time scenarios.
+Future scope of security evaluation methods.
+
+\bibliography{template}
+
+\end{document}
