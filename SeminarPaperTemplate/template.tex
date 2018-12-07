@@ -128,7 +128,70 @@ The desired properties of a good security metric are granularity, availability, 
 
 \subsection{Importance of Software Security Metrics}
 Significance of security Metrics
-\subsection{Brief overview of major Security Metrics}
+\subsection{Classification of Security Metrics}
+The security metrics can be classified as fig\ref{fig:security_metric_types} \cite{8017389}.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{figures/security_metric_types.jpg}
+	\caption{Classification of Security Metrics}
+	\label{fig:security_metric_types}
+\end{figure}
+
+\begin{enumerate}
+	\item {\textbf{Target Type:} Security metrics can be categorized according to the target they evaluate. The most common targets assessed (and respective security metrics) are the following:}
+	\begin{enumerate}
+		\item {\textbf{Process:} Process security metrics quantify the security level of a product by assessing its associated development process.}
+		\item {\textbf{Software:} Software security metrics evaluate software security by assessing source code defects, software (mis)configuration, or other vulnerabilities present in software components.}
+		\item {\textbf{Network:} Network Security Metrics(NSMs) assess the security of entire networks or parts thereof.}
+		\item {\textbf{Organization:} Organization security metrics evaluate the physical and personnel security of an organization.}
+	\end{enumerate}
+
+	\item {\textbf{Objective Type:} Based on its objective type security metric can be classified as:}
+	\begin{enumerate}
+	\item {\textbf{Compliance:} Compliance security metrics measures how well the security requirements of a target is being met based on the security methods and policies.}
+	\item {\textbf{Economic:} Metrics taking into consideration of the financial aspects of security.}
+	\item {\textbf{Effectiveness:} It measures how effectively the security measures can perform against security threats or violations.}
+	\end{enumerate}
+
+	\item {\textbf{Construction Type:} Based on the way security metrics is derived, they can be classified as:}
+	\begin{enumerate}
+	\item {\textbf{Measurement-based:} This security metric is used to quantify the security property that is being measured.}
+	\item {\textbf{Model-based:} Here the metrics values are derived from the complex mathematical equations used to define the formal mathematical model of the target. Refer fig\ref{fig:modelbased_metric} for a simple representation of a model-based security metric. Examples of models used to evaluate security metrics are attack graphs, Markov models, attack trees, Bayesian networks, etc. In the following sections the detailed evaluation of model-based security metrics is described.}
+
+	\begin{figure}
+		\includegraphics[width=\linewidth]{figures/modelbased_metric.jpg}
+		\caption{Evaluation Process of Model-Based Security Metrics}
+		\label{fig:modelbased_metric}
+	\end{figure}
+	\end{enumerate}
+
+	\item {\textbf{Automation Level:} Based on the level of automation used for the measurements the security metric can be classified as:}
+	\begin{enumerate}
+	\item {\textbf{Manual:} The collection of metrics values are being carried out manually(by humans).}
+	\item {\textbf{Automatic:} Metrics values are being collected with the help of computer system without the intervention of humans.}
+	\item {\textbf{Semi-Automatic:} Measurement is carried out with the help of both humans and computer systems.}
+	\end{enumerate}
+
+	\item {\textbf{Measurement Consistency:} Corresponding to the consistency of the metric values, security metrics can be classified as:}
+	\begin{enumerate}
+	\item {\textbf{Subjective:} Security metric is subjective to the person performing the metric measurement. Different people evaluating the same security property using same method can produce different results.}
+	\item {\textbf{Objective:} Same result is being obtained irrespective of the person performing the evaluation.}
+	\end{enumerate}
+
+	\item {\textbf{Measurement Type:} According to the type of the measurement security metrics can be classified as:}
+	\begin{enumerate}
+		\item {\textbf{Quantitative:} Quantitative security metrics are expressed as percentages or cardinal numbers (i.e., numbers that count something, instead of ordinal numbers, which only denote the position occupied by a given object).}
+		\item {\textbf{Qualitative:} Qualitative security metrics are expressed by labels such as high-medium-low values. Ordinal numbers can also be regarded as qualitative values.}
+	\end{enumerate}
+
+	\item {\textbf{Measurement Moment:} Depending on the instance of time at which the security metrics are applied to assess a given target, they can be classified as either static or dynamic::}
+	\begin{enumerate}
+	\item {\textbf{Static:} Static, or pre-deployment, security metrics are developed to be measured before the assessed target enters operation.}
+	\item {\textbf{Dynamic:} Dynamic, or run-time, security metrics are those developed to be constantly measured, during the operation of the target being evaluated.}
+	\end{enumerate}
+
+\end{enumerate}
+
 Overview of different  Security Metrics\newline
 
 	Security Metrics for Software Systems\cite{Wang:2009:SMS:1566445.1566509}\newline
