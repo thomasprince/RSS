@@ -1,12 +1,17 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: template.aux
 The style file: abbrvnat.bst
+Illegal, another \bibstyle command---line 4 of file template.aux
+ : \bibstyle
+ :          {abnt-num}
+I'm skipping whatever remains of this command
 Database file #1: template.bib
-Too many commas in name 1 of "A. Ansar, S & A. Khan, R & Agrawal, A" for entry Ansar:PWRSSM
+Name 1 in "J. Pamula, S. Jajodia, P. Ammann, and V. Swarup" has a comma at the end for entry J.Pamula2006
 while executing---line 1347 of file abbrvnat.bst
-Too many commas in name 1 of "A. Ansar, S & A. Khan, R & Agrawal, A" for entry Ansar:PWRSSM
+Name 1 in "J. Pamula, S. Jajodia, P. Ammann, and V. Swarup" has a comma at the end for entry J.Pamula2006
 while executing---line 1347 of file abbrvnat.bst
-Too many commas in name 1 of "A. Ansar, S & A. Khan, R & Agrawal, A" for entry Ansar:PWRSSM
+Warning--empty booktitle in Dacier1996QuantitativeAO
+Name 1 in "J. Pamula, S. Jajodia, P. Ammann, and V. Swarup" has a comma at the end for entry J.Pamula2006
 while executing---line 1429 of file abbrvnat.bst
-Too many commas in name 1 of "A. Ansar, S & A. Khan, R & Agrawal, A" for entry Ansar:PWRSSM
+Name 1 in "J. Pamula, S. Jajodia, P. Ammann, and V. Swarup" has a comma at the end for entry J.Pamula2006
 while executing---line 1429 of file abbrvnat.bst
-(There were 4 error messages)
+(There were 5 error messages)
