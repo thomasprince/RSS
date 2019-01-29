@@ -115,7 +115,7 @@
 \maketitle
 
 \begin{abstract}
-Software security is an idea implemented to secure software against malicious attack and other hacker risks so that the software continues to function correctly under such potential risks. Security is necessary to provide integrity, authentication and availability. The fast growth rate of software and software products makes the software security aspect even more critical. Most organizations these days want their information system to be managed as safely as possible. Security Evaluation is the basic step in achieving this goal for any organization. It is of particularly important because of the rapidly changing environment of the information security system or the operation system. In this survey we are performing a study on Software Security Evaluation techniques. A detailed analysis of Qualitative and Quantitative Security Evaluation approaches are being carried out. The suitability and challenges of different methods of each of this approach is studied. The systems where these techniques are being used are investigated to understand the performance of security evaluation methods.\\
+Software security is an idea implemented to secure software against malicious attack and other hacker risks so that the software continues to function correctly under such potential risks. Security is necessary to provide integrity, authentication and availability. The fast growth rate of software and software products makes the software security aspect even more critical. Most organizations these days want their information system to be managed as safely as possible. Security Evaluation is the basic step in achieving this goal for any organization. It is of particularly important because of the rapidly changing environment of the information security system or the operation system. In this survey we are performing a study on software security evaluation techniques. A detailed analysis of qualitative and quantitative security evaluation approaches are being carried out. The suitability and challenges of different methods of each of this approach is studied. The systems where these techniques are being used are investigated to understand the performance of security evaluation methods.\\
 
 \textbf{Keywords:} Sotware, Security, Security Evaluation, Security Metrics, Model-Based Metrics, Quantitative Security Evaluation , Qualitative Security Evaluation
 \end{abstract}
@@ -131,15 +131,16 @@ Software security is an idea implemented to secure software against malicious at
 
 \section{Research Method}
 The research method I have chosen to perform the survey on security evaluation is literature review. I have attempted to find as many literatures which deal with
-security evaluation as possible. I have used mainly Google Scholars to search for the relevant papers for my study. The keywords used for the search are  "Security Evaluation", "Security Metrics", "Quantitative Security Evaluation" and  "Qualitative Security Evaluation".
+security evaluation as possible. I have used mainly 'Google Scholar' to search for the relevant papers for my study. The keywords used for the search are  "Security Evaluation", "Security Metrics", "Quantitative Security Evaluation" and  "Qualitative Security Evaluation".
 
 \section{Software Security Metrics}\label{sec:softwaremetrics}
-Metrics is a measurement standard which defines what is to be measured, how to be measured and helps the security practitioners to manage the product efficiently. Security metrics is the powerful tool that helps security practitioners to integrate security features into their system. The security metrics are gaining lot of significance recently because with the help of the data obtained from the software security decisions can be taken and which in turn helps the software developers to secure their software product. 
+Metrics is a measurement standard which defines what is to be measured, how to be measured and helps the security practitioners to manage the product efficiently. Security metrics is the powerful tool that helps security practitioners to integrate security features into their system. The security metrics are gaining lot of significance recently because with the help of data obtained from them, software security decisions can be taken and which in turn helps the software developers to secure their product. 
 
 \subsection{Importance of Software Security Metrics}
-Security metrics help in decision making regarding security-related attributes of a process, system, or organization. In particular, security metrics can be applied to compare the effectiveness of different security mechanisms, or to indicate the degree to which security requirements of an organization are being met. In addition, they can also be used to systematically improve the security level of a system, or to predict this security level in a future point in time. All the people involved in the software life cycle from developers to users use the security metrics for different use cases. For example Technical Personnels(Developers) use security metrics to decide which configuration change is the most effective to increase network resilience, Management members for financial investment on security and finally end users for the trustworthiness of a software products available in the market.
+Security metrics help in decision making regarding security-related attributes of a process, system, or organization. In particular, security metrics can be applied to compare the effectiveness of different security mechanisms, or to indicate the degree to which security requirements of an organization are being met. In addition, they can also be used to systematically improve the security level of a system, or to predict this security level in a future point in time. All the people involved in the software life cycle from developers to users use the security metrics for different use cases. For example technical personnels(developers) use security metrics to decide which configuration change is the most effective to increase network resilience, management members for financial investment on security and finally end users for the trustworthiness of a software products available in the market.
 
 The desired properties of a good security metric are granularity, availability, cost effectiveness, localization and validation \cite{8017389_Ramos}. 
+
 \subsection{Classification of Security Metrics}
 The security metrics can be classified as Fig. \ref{fig:security_metric_types}.
 
@@ -149,7 +150,7 @@ The security metrics can be classified as Fig. \ref{fig:security_metric_types}.
 	\label{fig:security_metric_types}
 \end{figure}
 
-\begin{enumerate}[(a)]
+\begin{enumerate}[(1)]
 	\item {\textbf{Target Type:} Security metrics can be categorized according to the target they evaluate. The most common targets assessed (and respective security metrics) are the following:}
 	\begin{enumerate}[(i)]
 		\item {\textbf{Process:} Process security metrics quantify the security level of a product by assessing its associated development process.}
@@ -208,7 +209,7 @@ The security metrics can be classified as Fig. \ref{fig:security_metric_types}.
 'Qualitative': means "involving distinctions or involving comparisons based on qualities". Qualitative security evaluation methods identify and analyze common vulnerabilities and the probability and damage of risks are evaluated qualitatively. The below subsections provide an overview about security patterns, criteria for qualitative evaluation and finally describes Vulnerability Assessment and Penetration Testing (VAPT), one of the qualitative security evaluation method.
 \subsection{Security Patterns for Qualitative Evaluation}
 In case of qualitative security evaluation different security patterns are evaluated for the security evaluation.  A short description of different security patterns and their objectives are described below \cite{HALKIDIS2006379}.
-\begin{enumerate}[(a)]
+\begin{enumerate}[(1)]
 	\item{The objective of the \textbf{Check pointed System pattern} is to organize a system so that its state can be recovered and restored to a known valid state, in case of a component failure.}
 	\item{The objective of the \textbf{Standby pattern} is to organize a system so that the service provided by one component can be resumed from a different component.}
 	\item{The objective of the \textbf{Comparator-Checked Fault Tolerant System pattern} is to organize a system, so that an independent failure of one component (i.e. a failure of a component that does not affect other components at all) will be detected quickly and so that an independent single-component failure will not cause a system failure.}
@@ -225,7 +226,8 @@ In case of qualitative security evaluation different security patterns are evalu
 \end{enumerate}
 
 \subsection{Qualitative criteria for evaluation of security pattern}
-Researchers in \cite{HALKIDIS2006379} have demonstrated three set of qualitative criteria for evaluation of security pattern. The first category is based on 10 guiding principles for building secure software by Viega and McGraw (2002) \cite{GaryMcGraw2002}. The 10 principles are :
+Researchers in \cite{HALKIDIS2006379} have demonstrated three set of qualitative criteria for evaluation of security pattern. The first category is based on 10 guiding principles for building secure software by Viega and McGraw (2002) \cite{GaryMcGraw2002}. \\
+The 10 principles are :
 \begin{enumerate}
 		\item{Secure the weakest link.}
 		\item{Practice defense in depth.}
@@ -238,7 +240,10 @@ Researchers in \cite{HALKIDIS2006379} have demonstrated three set of qualitative
 		\item{Reluctant to trust.}
 		\item{Use community resources (well-tested solutions).}
 \end{enumerate}
-The second set of criteria focuses on software development problems which can lead to software security holes and are buffer overflows, poor access control mechanisms and race conditions.The last set of criteria can be described as how well a specific security pattern might respond to different categories of attacks as they are described by Howard and LeBlanc (2002) \cite{Howard:2002:WSC:579079}. The model purposed by Howard and LeBlanc is called \textbf{STRIDE} model. The different attacks are \textbf{S}poofing identity attacks, \textbf{T}ampering with data attacks, \textbf{R}epudiation attacks, \textbf{I}nformation disclosure attacks, \textbf{D}enial of Service (DoS) attacks and \textbf{E}levation of privilege attacks.
+
+The second set of criteria focuses on software development problems which can lead to software security holes and are buffer overflows, poor access control mechanisms and race conditions.
+
+The last set of criteria can be described as how well a specific security pattern might respond to different categories of attacks as they are described by Howard and LeBlanc (2002) \cite{Howard:2002:WSC:579079}. The model purposed by Howard and LeBlanc is called \textbf{STRIDE} model. The different attacks are \textbf{S}poofing identity attacks, \textbf{T}ampering with data attacks, \textbf{R}epudiation attacks, \textbf{I}nformation disclosure attacks, \textbf{D}enial of Service (DoS) attacks and \textbf{E}levation of privilege attacks.
 
 
 \subsection{Vulnerability Assessment and Penetration Testing (VAPT)}
@@ -308,7 +313,7 @@ In such models, the system is expressed as a finite state machine.  Each state o
 State-based metric models the system using Continuous-Time Markov Chain (CTMC) with discrete state space. CTMC is based on Markov property. As per Markov property, the probability distribution of the next state depends only on the current state and not on the previous states. Also, the time spent in each state takes a continuous set of values (i.e., non-negative real values), and follows an exponential distribution.
 
 The major quantitative models based on stochastic models are described below.
-\begin{enumerate}[(a)]
+\begin{enumerate}[(1)]
 	\item {\textbf{Time-Based Security Metrics}\newline 
 	Its based on the amount of time to make the system to be compromised by a successful attack. Larger the time value more secure the system is. One of the time based Metrics is based on Privilege Graphs.\\
     \textbf{Privilege Graph-Based Metrics}\newline 
@@ -341,7 +346,7 @@ The major quantitative models based on stochastic models are described below.
 Attack graphs depict ways in which an adversary can exploit vulnerabilities to break into a system. Attack graph can be automatically to generate attack paths to analyze the network vulnerability. It can show users the weak point in the network analysis process for network security risk analysis. Once a potential attack path is found, attack graph tools can generate attack graph or attack trees to help system administrators understand how attacks happen, and then take defensive measures. There are many tools to automatically build attack graphs for a given network. For example open source tools like MulVAL, TVA. Attack Graph Toolkit, NetSPA and the commercial tools like Cauldron, FireMon, Skybox View.
 
 The major quantitative models based on attack graphs are described below.
-\begin{enumerate}
+\begin{enumerate}[(1)]
 	\item {\textbf{Path Metrics}\newline 
 		Its based on the characteristics of the attack paths. One of the path metrics is Shortest Path Metric (SP) proposed by Phillips and Swiler \cite{CynthiaPhillips1998}. As per this metric, the network is modeled as a condition-oriented network graph and security level corresponds to the length of the smallest attack path that an adversary can take to reach the desired goal state(compromised state). So longer the shortest path, more secure the network. The advantage of SP metric is simplicity however it does not take into account for the number of different shortest paths in a network. To overcome this researchers have come up with different path metrics like Number of Paths metric (NP), Mean of Path Lengths metric (MPL).}
 	
