@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.13)  14 DEC 2018 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.13)  29 JAN 2019 18:22
 entering extended mode
 **./template.tex
 (template.tex
@@ -354,6 +354,111 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count118
 )
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\p
+dfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthe
+n.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc
+.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen126
+\calc@Bdimen=\dimen127
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count121
+\calc@Cskip=\skip49
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\es
+o-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+))
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\k
+eyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xco
+lor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
+fg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-d
+ef\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
+raphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
+raphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\t
+rig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
+fg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen128
+\Gin@req@width=\dimen129
+)
+\AM@pagewidth=\dimen130
+\AM@pageheight=\dimen131
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\p
+ppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box54
+\AM@global@opts=\toks22
+\AM@toc@title=\toks23
+\c@AM@survey=\count122
+\AM@templatesizebox=\box55
+)
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\n
 ameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -361,15 +466,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\r
 efcount.sty"
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-))
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
 \gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -378,11 +475,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 voptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\k
-eyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
-)
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
 \kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
@@ -401,14 +493,14 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))))
-\c@section@level=\count119
+\c@section@level=\count123
 LaTeX Info: Redefining \ref on input line 355.
 LaTeX Info: Redefining \pageref on input line 355.
 )
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\vari
 oref.sty"
 Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
-\c@vrcnt=\count120
+\c@vrcnt=\count124
 )
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
 yperref.sty"
@@ -429,7 +521,7 @@ Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package hobsub Info: Skipping package `etexcmds' (already loaded).
 Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
@@ -451,7 +543,7 @@ Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package hobsub Info: Skipping package `refcount' (already loaded).
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
@@ -463,9 +555,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 uxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen126
-\Hy@linkcounter=\count121
-\Hy@pagecounter=\count122
+\@linkdim=\dimen132
+\Hy@linkcounter=\count125
+\Hy@pagecounter=\count126
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\p
 d1enc.def"
@@ -473,7 +565,7 @@ File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count123
+\Hy@SavedSpaceFactor=\count127
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\h
 yperref.cfg"
@@ -488,7 +580,7 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count124
+\c@Hy@tempcnt=\count128
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.st
 y"
@@ -496,10 +588,10 @@ y"
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen127
-\Fld@menulength=\count125
-\Field@Width=\dimen128
-\Fld@charsize=\dimen129
+\XeTeXLinkMargin=\dimen133
+\Fld@menulength=\count129
+\Field@Width=\dimen134
+\Fld@charsize=\dimen135
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -509,17 +601,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count126
-\c@Item=\count127
-\c@Hfootnote=\count128
+\Hy@abspage=\count130
+\c@Item=\count131
+\c@Hfootnote=\count132
 )
 Package hyperref Info: Driver: hpdftex.
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
 pdftex.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count129
-\c@bookmark@seq@number=\count130
+\Fld@listcount=\count133
+\c@bookmark@seq@number=\count134
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\r
 erunfilecheck.sty"
@@ -527,61 +619,25 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip47
+\Hy@SectionHShift=\skip50
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 35.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 37.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 36.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 38.
+Package hyperref Info: Option `colorlinks' set `false' on input line 40.
 
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\c
-olor.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
-fg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-d
-ef\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-Package hyperref Info: Option `colorlinks' set `false' on input line 39.
-
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
-raphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\g
-raphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\t
-rig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-c
-fg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen130
-\Gin@req@width=\dimen131
-)
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\
 subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip48
-\subfigcapskip=\skip49
-\subfigcaptopadj=\dimen132
-\subfigbottomskip=\skip50
-\subfigcapmargin=\dimen133
-\subfiglabelskip=\skip51
-\c@subfigure=\count131
-\c@lofdepth=\count132
-\c@subtable=\count133
-\c@lotdepth=\count134
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen136
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen137
+\subfiglabelskip=\skip54
+\c@subfigure=\count135
+\c@lofdepth=\count136
+\c@subtable=\count137
+\c@lotdepth=\count138
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -589,13 +645,13 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\
 subfigure.cfg")
-\subfig@top=\skip52
-\subfig@bottom=\skip53
+\subfig@top=\skip55
+\subfig@bottom=\skip56
 )
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
 smath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip54
+\@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
 
@@ -606,57 +662,57 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
 sgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen134
+\@emptytoks=\toks24
+\ex@=\dimen138
 ))
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
 sbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen135
+\pmbraise@=\dimen139
 )
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
 sopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count135
+\inf@bad=\count139
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count136
-\leftroot@=\count137
+\uproot@=\count140
+\leftroot@=\count141
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count138
-\DOTSCASE@=\count139
+\classnum@=\count142
+\DOTSCASE@=\count143
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-\big@size=\dimen136
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 
 
 Package amsmath Warning: Unable to redefine math accent \vec.
 
-\macc@depth=\count140
-\c@MaxMatrixCols=\count141
+\macc@depth=\count144
+\c@MaxMatrixCols=\count145
 \dotsspace@=\muskip11
-\c@parentequation=\count142
-\dspbrk@lvl=\count143
-\tag@help=\toks23
-\row@=\count144
-\column@=\count145
-\maxfields@=\count146
-\andhelp@=\toks24
-\eqnshift@=\dimen137
-\alignsep@=\dimen138
-\tagshift@=\dimen139
-\tagwidth@=\dimen140
-\totwidth@=\dimen141
-\lineht@=\dimen142
-\@envbody=\toks25
-\multlinegap=\skip55
-\multlinetaggap=\skip56
-\mathdisplay@stack=\toks26
+\c@parentequation=\count146
+\dspbrk@lvl=\count147
+\tag@help=\toks25
+\row@=\count148
+\column@=\count149
+\maxfields@=\count150
+\andhelp@=\toks26
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks27
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -674,83 +730,156 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\l
 istings.sty"
-\lst@mode=\count147
-\lst@gtempboxa=\box56
-\lst@token=\toks27
-\lst@length=\count148
-\lst@currlwidth=\dimen143
-\lst@column=\count149
-\lst@pos=\count150
-\lst@lostspace=\dimen144
-\lst@width=\dimen145
-\lst@newlines=\count151
-\lst@lineno=\count152
-\lst@maxwidth=\dimen146
+\lst@mode=\count151
+\lst@gtempboxa=\box58
+\lst@token=\toks29
+\lst@length=\count152
+\lst@currlwidth=\dimen147
+\lst@column=\count153
+\lst@pos=\count154
+\lst@lostspace=\dimen148
+\lst@width=\dimen149
+\lst@newlines=\count155
+\lst@lineno=\count156
+\lst@maxwidth=\dimen150
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\l
 stmisc.sty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count153
-\lst@skipnumbers=\count154
-\lst@framebox=\box57
+\c@lstnumber=\count157
+\lst@skipnumbers=\count158
+\lst@framebox=\box59
 )
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\l
 istings.cfg"
 File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
- (template.aux)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\b
+ooktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen151
+\lightrulewidth=\dimen152
+\cmidrulewidth=\dimen153
+\belowrulesep=\dimen154
+\belowbottomsep=\dimen155
+\aboverulesep=\dimen156
+\abovetopsep=\dimen157
+\cmidrulesep=\dimen158
+\cmidrulekern=\dimen159
+\defaultaddspace=\dimen160
+\@cmidla=\count159
+\@cmidlb=\count160
+\@aboverulesep=\dimen161
+\@belowrulesep=\dimen162
+\@thisruleclass=\count161
+\@lastruleclass=\count162
+\@thisrulewidth=\dimen163
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabu
+larx.sty"
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\arra
+y.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box60
+\extrarowheight=\dimen165
+\NC@list=\toks30
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box61
+)
+\TX@col@width=\dimen166
+\TX@old@table=\dimen167
+\TX@old@col=\dimen168
+\TX@target=\dimen169
+\TX@delta=\dimen170
+\TX@cols=\count163
+\TX@ftn=\toks31
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\makecell\m
+akecell.sty"
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen171
+\c@nlinenum=\count164
+\TeXr@lab=\toks32
+)
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ca
+ption.sty"
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ca
+ption3.sty"
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen172
+\captionmargin@=\dimen173
+\captionwidth=\dimen174
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\bfseries
+ #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempbox
+a \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count165
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+) (template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 113.
 
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cm
 r.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Info: Redefining \Ref on input line 105.
-\AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 105.
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
- (template.out) (template.out)
-\@outlinefile=\write3
-\openout3 = `template.out'.
-
-LaTeX Info: Redefining \Ref on input line 105.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+\AtBeginShipoutBox=\box62
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen147
-\scratchbox=\box59
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen148
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count166
+\scratchdimen=\dimen179
+\scratchbox=\box63
+\nofMPsegments=\count167
+\nofMParguments=\count168
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count169
+\MPscratchDim=\dimen180
+\MPnumerator=\count170
+\makeMPintoPDFobject=\count171
+\everyMPtoPDFconversion=\toks34
 )
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\e
 pstopdf-base.sty"
@@ -763,129 +892,330 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.jpg,.png,.eps]
+(grfext)             [.jpg,.png,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count161
-LaTeX Font Info:    Try loading font information for U+msa on input line 108.
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\p
+dflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\l
+scape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+))
+LaTeX Info: Redefining \Ref on input line 113.
+Package hyperref Info: Link coloring OFF on input line 113.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
+ (template.out) (template.out)
+\@outlinefile=\write3
+\openout3 = `template.out'.
+
+LaTeX Info: Redefining \Ref on input line 113.
+\c@lstlisting=\count172
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 116.
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\u
 msa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 108.
+LaTeX Font Info:    Try loading font information for U+msb on input line 116.
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\u
 msb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
- []
-
-
-Overfull \hbox (2.78246pt too wide) in paragraph at lines 112--113
-[]\T1/cmr/bx/n/9 Keywords: \T1/cmr/m/n/9 Se-cu-rity, Se-cu-rity Eval-u-a-tion, 
-Se-cu-rity Met-rics, Model-Based
  []
 
 [1
 
 {C:/Users/Prince Thomas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<figures/security_metric_types.jpg, id=96, 806.26219pt x 372.64218pt>
+[2]
+<figures/security_metric_types.jpg, id=101, 806.26219pt x 372.64218pt>
 File: figures/security_metric_types.jpg Graphic file (type jpg)
 <use figures/security_metric_types.jpg>
 Package pdftex.def Info: figures/security_metric_types.jpg  used on input line 
-136.
+147.
 (pdftex.def)             Requested size: 347.12354pt x 160.43202pt.
-
-[2] [3 <./figures/security_metric_types.jpg>]
-<figures/modelbased_metric.jpg, id=120, 406.51875pt x 85.82062pt>
+ [3 <./figures/security_metric_types.jpg>]
+<figures/modelbased_metric.jpg, id=116, 406.51875pt x 85.82062pt>
 File: figures/modelbased_metric.jpg Graphic file (type jpg)
 <use figures/modelbased_metric.jpg>
-Package pdftex.def Info: figures/modelbased_metric.jpg  used on input line 163.
+Package pdftex.def Info: figures/modelbased_metric.jpg  used on input line 174.
 
 (pdftex.def)             Requested size: 173.56177pt x 36.64023pt.
  [4 <./figures/modelbased_metric.jpg>] [5] [6]
-<figures/vapt_lifecycle.png, id=173, 182.6825pt x 656.4525pt>
+<figures/vapt_lifecycle.png, id=183, 172.645pt x 646.415pt>
 File: figures/vapt_lifecycle.png Graphic file (type png)
 <use figures/vapt_lifecycle.png>
-Package pdftex.def Info: figures/vapt_lifecycle.png  used on input line 226.
-(pdftex.def)             Requested size: 69.42365pt x 249.46455pt.
+Package pdftex.def Info: figures/vapt_lifecycle.png  used on input line 250.
+(pdftex.def)             Requested size: 69.42365pt x 259.93243pt.
 
-Underfull \vbox (badness 1769) has occurred while \output is active []
 
- [7 <./figures/vapt_lifecycle.png (PNG copy)>]
-<figures/vait_setup.jpg, id=183, 1129.21875pt x 922.19531pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]
+<figures/vait_setup.jpg, id=196, 1129.21875pt x 922.19531pt>
 File: figures/vait_setup.jpg Graphic file (type jpg)
 <use figures/vait_setup.jpg>
-Package pdftex.def Info: figures/vait_setup.jpg  used on input line 246.
+Package pdftex.def Info: figures/vait_setup.jpg  used on input line 270.
 (pdftex.def)             Requested size: 173.56177pt x 141.7427pt.
-<figures/web_evaluation_results.jpg, id=184, 617.30624pt x 472.01344pt>
+<figures/web_evaluation_results.jpg, id=197, 617.30624pt x 472.01344pt>
 File: figures/web_evaluation_results.jpg Graphic file (type jpg)
 <use figures/web_evaluation_results.jpg>
 Package pdftex.def Info: figures/web_evaluation_results.jpg  used on input line
- 249.
+ 273.
 (pdftex.def)             Requested size: 173.56177pt x 132.71024pt.
- [8 <./figures/vait_setup.jpg> <./figures/web_evaluation_results.jpg>] [9]
-<figures/and_node.png, id=203, 395.97937pt x 170.13562pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./figures/vapt_lifecycle.png (PNG copy)>] [9 <./figures/vait_setup.jpg> <./
+figures/web_evaluation_results.jpg>]
+<figures/and_node.png, id=216, 395.97937pt x 170.13562pt>
 File: figures/and_node.png Graphic file (type png)
 <use figures/and_node.png>
-Package pdftex.def Info: figures/and_node.png  used on input line 272.
+Package pdftex.def Info: figures/and_node.png  used on input line 293.
 (pdftex.def)             Requested size: 173.56177pt x 74.57173pt.
-<figures/or_node.png, id=205, 395.97937pt x 170.13562pt>
+<figures/or_node.png, id=218, 395.97937pt x 170.13562pt>
 File: figures/or_node.png Graphic file (type png)
 <use figures/or_node.png>
-Package pdftex.def Info: figures/or_node.png  used on input line 275.
+Package pdftex.def Info: figures/or_node.png  used on input line 296.
 (pdftex.def)             Requested size: 173.56177pt x 74.57173pt.
- [10 <./figures/and_node.png> <./figures/or_node.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 3343) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 312--316
 
  []
 
-[11]
-<figures/privilege_graph.png, id=227, 853.1875pt x 507.8975pt>
+[11 <./figures/and_node.png> <./figures/or_node.png>]
+<figures/privilege_graph.png, id=239, 524.96124pt x 199.74625pt>
 File: figures/privilege_graph.png Graphic file (type png)
 <use figures/privilege_graph.png>
-Package pdftex.def Info: figures/privilege_graph.png  used on input line 301.
-(pdftex.def)             Requested size: 277.69987pt x 165.31273pt.
+Package pdftex.def Info: figures/privilege_graph.png  used on input line 322.
+(pdftex.def)             Requested size: 277.69987pt x 105.66689pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
-<figures/probablistic_sec_mod.png, id=231, 582.67688pt x 236.38312pt>
+<figures/probablistic_sec_mod.png, id=242, 582.67688pt x 236.38312pt>
 File: figures/probablistic_sec_mod.png Graphic file (type png)
 <use figures/probablistic_sec_mod.png>
 Package pdftex.def Info: figures/probablistic_sec_mod.png  used on input line 3
-13.
+34.
 (pdftex.def)             Requested size: 277.69987pt x 112.66187pt.
-[12 <./figures/privilege_graph.png>] [13 <./figures/probablistic_sec_mod.png>]
-[14] (template.bbl [15]
+[12 <./figures/privilege_graph.png (PNG copy)>] [13 <./figures/probablistic_sec
+_mod.png>] [14]
+Underfull \hbox (badness 1117) in paragraph at lines 379--380
+[]|\T1/cmr/m/n/9 Definition of con-se-quences of in-
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 386--387
+[]|\T1/cmr/m/n/9 Does not fa-cil-i-tate re-al-iza-tion of
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 389--390
+[]|\T1/cmr/m/n/9 More ex-pen-sive, Re-quires greater
+ []
+
+[15] (template.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 44.
 
 ("C:\Users\Prince Thomas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmt
 t.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [16])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Review_Feedback_Comments.pdf, id=294, 597.432pt x 845.07718pt>
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf  used on input li
+ne 401.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf  used on input li
+ne 401.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Review_Feedback_Comments.pdf, id=297, page=1, 597.432pt x 845.07718pt>
+
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 1>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page1 used on i
+nput line 401.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 1>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page1 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+[17]
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 1>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page1 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 1>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page1 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 1>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page1 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+ [18 <./figures/Review_Feedback_Comments.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Review_Feedback_Comments.pdf, id=328, page=2, 597.432pt x 845.07718pt>
+
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 2>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page2 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 2>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page2 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 2>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page2 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+[19 <./figures/Review_Feedback_Comments.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Review_Feedback_Comments.pdf, id=335, page=3, 597.432pt x 845.07718pt>
+
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 3>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page3 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 3>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page3 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 3>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page3 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+[20 <./figures/Review_Feedback_Comments.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Review_Feedback_Comments.pdf, id=341, page=4, 597.432pt x 845.07718pt>
+
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 4>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page4 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 4>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page4 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 4>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page4 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+[21 <./figures/Review_Feedback_Comments.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Review_Feedback_Comments.pdf, id=347, page=5, 597.432pt x 845.07718pt>
+
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 5>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page5 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 5>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page5 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 5>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page5 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+[22 <./figures/Review_Feedback_Comments.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/Review_Feedback_Comments.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Review_Feedback_Comments.pdf, id=353, page=6, 597.432pt x 845.07718pt>
+
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 6>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page6 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 6>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page6 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+File: figures/Review_Feedback_Comments.pdf Graphic file (type pdf)
+<use figures/Review_Feedback_Comments.pdf, page 6>
+Package pdftex.def Info: figures/Review_Feedback_Comments.pdf , page6 used on i
+nput line 401.
+(pdftex.def)             Requested size: 562.05109pt x 795.0303pt.
+[23 <./figures/Review_Feedback_Comments.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
  (template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 367EDBEB36BAC079D6F74E7FE3027B7E;1693.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
+(rerunfilecheck)             Checksum: E4F963E0D484B54F98667D5BA51D9C3D;1620.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
  ) 
 Here is how much of TeX's memory you used:
- 9660 strings out of 492973
- 140831 string characters out of 3123146
- 242160 words of memory out of 3000000
- 13268 multiletter control sequences out of 15000+200000
- 12501 words of font info for 32 fonts, out of 3000000 for 9000
+ 12200 strings out of 492973
+ 182131 string characters out of 3123146
+ 290392 words of memory out of 3000000
+ 15730 multiletter control sequences out of 15000+200000
+ 15603 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,32p,1469b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,18n,46p,1467b,568s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Prince Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ectt1000.pk> <C:\Users\Prince Thomas\AppData\Local\MiKTeX\2.9\fonts\pk\
 ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Prince Thomas\AppData\Local\Mi
@@ -904,9 +1234,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/P
 rince Thomas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Users/Prince Thomas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy7.pfb>
-Output written on template.pdf (17 pages, 847991 bytes).
+Output written on template.pdf (23 pages, 891670 bytes).
 PDF statistics:
- 685 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,6 +26,7 @@
 %\makeindex
 
 %% PDF Einstellungen
+\usepackage{pdfpages}
 % muss nach natbib geladen werden!
 \usepackage{nameref}
 \usepackage{varioref}
@@ -71,8 +72,7 @@
 \makeatother
 
 %% Grafiken
-\usepackage[pdftex]{graphicx}
-\DeclareGraphicsExtensions{.pdf,.jpg,.png}
+\DeclareGraphicsExtensions{.jpg,.png}
 \usepackage{subfigure}
 
 %% Mathe
@@ -82,6 +82,14 @@
 %% Listings
 \usepackage{listings}
 \lstset{escapechar=\%, frame=tb, basicstyle=\footnotesize}
+
+%%Table
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{makecell}
+\renewcommand*{\arraystretch}{1.4}
+\usepackage{graphicx}
+\usepackage{caption}
 
 %% Sonstiges
 \newcommand{\TODO}[1]{\par\textcolor{red}{#1}\marginpar{\textcolor{red}{TODO}}}
@@ -107,23 +115,26 @@
 \maketitle
 
 \begin{abstract}
-Software security is an idea implemented to secure software against malicious attack and other hacker risks so that the software continues to function correctly under such potential risks. Security is necessary to provide integrity, authentication and availability. The fast growth rate of software and software products makes the software security aspect even more critical. Most organizations these days want their information system to be managed as safely as possible. Security Evaluation is the basic step in achieving this goal for any organization. Security Evaluation is particularly important because of the rapidly changing environment of the information security system or the operation system. In this survey we are performing a study on Software Security Evaluation techniques. A detailed analysis of Qualitative and Quantitative Security Evaluation approaches are being carried out. The suitability and challenges of different methods of each of this approach is studied. The systems where these techniques are being used are investigated to understand the performance of security evaluation methods.\\
+Software security is an idea implemented to secure software against malicious attack and other hacker risks so that the software continues to function correctly under such potential risks. Security is necessary to provide integrity, authentication and availability. The fast growth rate of software and software products makes the software security aspect even more critical. Most organizations these days want their information system to be managed as safely as possible. Security Evaluation is the basic step in achieving this goal for any organization. It is of particularly important because of the rapidly changing environment of the information security system or the operation system. In this survey we are performing a study on Software Security Evaluation techniques. A detailed analysis of Qualitative and Quantitative Security Evaluation approaches are being carried out. The suitability and challenges of different methods of each of this approach is studied. The systems where these techniques are being used are investigated to understand the performance of security evaluation methods.\\
 
-\textbf{Keywords:} Security, Security Evaluation, Security Metrics, Model-Based Metrics, Quantitative Security Evaluation , Qualitative Security Evaluation
+\textbf{Keywords:} Sotware, Security, Security Evaluation, Security Metrics, Model-Based Metrics, Quantitative Security Evaluation , Qualitative Security Evaluation
 \end{abstract}
 
 
 \section{Introduction}
 
-  Software security is the idea of engineering software so that it continues to function correctly under malicious attack \cite{1281254_McGraw}. The fast-growing software systems and huge amount of data handling makes the software security an important aspect in Modern software development. Measuring and assessing software security is a critical concern as it is undesirable to develop risky and insecure software. 
+  Software security is the idea of engineering software so that it continues to function correctly under malicious attack \cite{1281254_McGraw}. The fast-growing software systems and huge amount of data handling makes the software security an important aspect in modern software development. Measuring and assessing software security is a critical concern as it is undesirable to develop risky and insecure software. 
   
-  Now a days we are hearing news about the new and new security threats every day. One such case of security threat was the phishing mail incident happened with the twitter users on the weekend of January 3, 2009, several users on the social network Web site, Twitter, became victims of a phishing attack. The users were deceived into giving away their passwords when they received an e-mail similar to one that they would receive from Twitter with a link that read, "hey, check out this funny blog about you..". The link redirects to a site misguiding as the real Twitter site. Any personal information entered by the user on the fake site is then captured by the attacker. Generally, most of security incidents are caused by software flaws and bugs called security holes and vulnerabilities. Normally a hacker tries to find and exploit security holes present in the software. He does not create security holes on his own. As a result, ensuring software security has become so critical. Software security has to be evaluated to make sure that software is minimally susceptible to threats. Evaluation of software security is so challenging because of the non-predictability of the threats and attacker behaviors. 
+  Nowadays we are hearing news about the new and new security threats every day. One such case of security threat was the phishing mail incident happened with the Twitter users on the weekend of January 3, 2009, several users on the social network website, Twitter, became victims of a phishing attack. The users were deceived into giving away their passwords when they received an e-mail similar to one that they would receive from Twitter with a link that read, "hey, check out this funny blog about you..". The link redirects to a site misguiding as the real Twitter site. Any personal information entered by the user on the fake site is then captured by the attacker. Generally, most of security incidents are caused by software flaws and bugs called security holes and vulnerabilities. Normally a hacker tries to find and exploit security holes present in the software. He does not create security holes on his own. As a result, ensuring software security has become so critical. Software security has to be evaluated to make sure that software is minimally susceptible to threats. Evaluation of software security is so challenging because of the non-predictability of the threats and attacker behaviors. 
 
-  In this paper a detailed survey of software security evaluation is done. First a brief description about software security metrics is presented. Then different security evaluation techniques based on qualitative and quantitative security evaluation methods are discussed. Qualitative evaluation methods identify and analyze common vulnerabilities and the probability and damage of risks are evaluated qualitatively. Quantitative evaluation methods are model based and can be described mathematically. The rest of this paper is organized as follows. Section \ref{sec:softwaremetrics} provides a brief overview of Software Security Metrics, their importance and the classifications . Section \ref{sec:qualitative} describes about the qualitative security evaluation. Section \ref{sec:quantitative} about the quantitative security evaluation and finally the paper is concluded with section \ref{sec:conclusions}.
+  In this paper a detailed survey of software security evaluation is done. First a brief description of software security metrics is presented. Then different security evaluation techniques based on qualitative and quantitative security evaluation methods are discussed. Qualitative evaluation methods identify and analyze common vulnerabilities and the probability and damage of risks are evaluated qualitatively. Quantitative evaluation methods are model-based and can be described mathematically. The rest of this paper is organized as follows. Section \ref{sec:softwaremetrics} provides a brief overview of Software Security Metrics, their importance and the classifications . Section \ref{sec:qualitative} describes the qualitative security evaluation. Section \ref{sec:quantitative} the quantitative security evaluation and finally the paper is concluded with section \ref{sec:conclusions}.
 
+\section{Research Method}
+The research method I have chosen to perform the survey on security evaluation is literature review. I have attempted to find as many literatures which deal with
+security evaluation as possible. I have used mainly Google Scholars to search for the relevant papers for my study. The keywords used for the search are  "Security Evaluation", "Security Metrics", "Quantitative Security Evaluation" and  "Qualitative Security Evaluation".
 
 \section{Software Security Metrics}\label{sec:softwaremetrics}
-Metrics is a measurement standard which defines what is to be measured, how to be measured and helps the security practitioners to manage the product efficiently. Security metrics is the powerful tool that helps security practitioners to integrate security features into their system. The security metrics are gaining lot of significance now a days because with the help of the data obtained from them software security decisions can be taken and which in turn helps the software developers to secure their software product. 
+Metrics is a measurement standard which defines what is to be measured, how to be measured and helps the security practitioners to manage the product efficiently. Security metrics is the powerful tool that helps security practitioners to integrate security features into their system. The security metrics are gaining lot of significance recently because with the help of the data obtained from the software security decisions can be taken and which in turn helps the software developers to secure their software product. 
 
 \subsection{Importance of Software Security Metrics}
 Security metrics help in decision making regarding security-related attributes of a process, system, or organization. In particular, security metrics can be applied to compare the effectiveness of different security mechanisms, or to indicate the degree to which security requirements of an organization are being met. In addition, they can also be used to systematically improve the security level of a system, or to predict this security level in a future point in time. All the people involved in the software life cycle from developers to users use the security metrics for different use cases. For example Technical Personnels(Developers) use security metrics to decide which configuration change is the most effective to increase network resilience, Management members for financial investment on security and finally end users for the trustworthiness of a software products available in the market.
@@ -185,17 +196,17 @@ The security metrics can be classified as Fig. \ref{fig:security_metric_types}.
 		\item {\textbf{Qualitative:} Qualitative security metrics are expressed by labels such as high-medium-low values. Ordinal numbers can also be regarded as qualitative values.}
 	\end{enumerate}
 
-	\item {\textbf{Measurement Moment:} Depending on the instance of time at which the security metrics are applied to assess a given target, they can be classified as either static or dynamic::}
+	\item {\textbf{Measurement Moment:} Depending on the instance of time at which the security metrics are applied to assess a given target, they can be classified as either static or dynamic:}
 	\begin{enumerate}[(i)]
-	\item {\textbf{Static:} Static, or pre-deployment, security metrics are developed to be measured before the assessed target enters operation.}
-	\item {\textbf{Dynamic:} Dynamic, or run-time, security metrics are those developed to be constantly measured, during the operation of the target being evaluated.}
+	\item {\textbf{Static, or pre-deployment:} Security metrics are developed to be measured before the assessed target enters operation.}
+	\item {\textbf{Dynamic, or run-time:} Security metrics are those developed to be constantly measured, during the operation of the target being evaluated.}
 	\end{enumerate}
 
 \end{enumerate}
 	
-\section{Qualitative Security Evaluation}\label{sec:qualitative}
-'Qualitative'- means "involving distinctions or involving comparisons based on qualities". Qualitative security evaluation methods identify and analyze common vulnerabilities and the probability and damage of risks are evaluated qualitatively.
-\subsection{Security Patterns for Qualitative Security Evaluation}
+\section{Qualitative Evaluation}\label{sec:qualitative}
+'Qualitative': means "involving distinctions or involving comparisons based on qualities". Qualitative security evaluation methods identify and analyze common vulnerabilities and the probability and damage of risks are evaluated qualitatively. The below subsections provide an overview about security patterns, criteria for qualitative evaluation and finally describes Vulnerability Assessment and Penetration Testing (VAPT), one of the qualitative security evaluation method.
+\subsection{Security Patterns for Qualitative Evaluation}
 In case of qualitative security evaluation different security patterns are evaluated for the security evaluation.  A short description of different security patterns and their objectives are described below \cite{HALKIDIS2006379}.
 \begin{enumerate}[(a)]
 	\item{The objective of the \textbf{Check pointed System pattern} is to organize a system so that its state can be recovered and restored to a known valid state, in case of a component failure.}
@@ -214,10 +225,23 @@ In case of qualitative security evaluation different security patterns are evalu
 \end{enumerate}
 
 \subsection{Qualitative criteria for evaluation of security pattern}
-Spyros T. Halkidis, Alexander Chatzigeorgiou and George Stephanides in their paper "A qualitative analysis of software security patterns" \cite{HALKIDIS2006379} had mentioned three set of qualitative criteria for evaluation of security pattern.The first category is based on 10 guiding principles for building secure software by Viega and McGraw (2002) \cite{GaryMcGraw2002}. The 10 principles are Secure the weakest link, Practice defense in depth, System should fail securely, Follow the principle of least privilege, Compartmentalize system, System should be simple, Promote privacy,	Remember that hiding secrets is hard, Reluctant to trust and Use community resources (well-tested solutions). The second set of criteria focuses on software development problems which can lead to software security holes and are buffer overflows, poor access control mechanisms and Race conditions.The last set of criteria can be described as how well a specific security pattern might respond to different categories of attacks as they are described by Howard and LeBlanc (2002) \cite{Howard:2002:WSC:579079}. The model purposed by Howard and LeBlanc is called \textbf{STRIDE} model. The different attacks are \textbf{S}poofing identity attacks, \textbf{T}ampering with data attacks, \textbf{R}epudiation attacks, \textbf{I}nformation disclosure attacks, \textbf{D}enial of Service (DoS) attacks and \textbf{E}levation of privilege attacks.
+Researchers in \cite{HALKIDIS2006379} have demonstrated three set of qualitative criteria for evaluation of security pattern. The first category is based on 10 guiding principles for building secure software by Viega and McGraw (2002) \cite{GaryMcGraw2002}. The 10 principles are :
+\begin{enumerate}
+		\item{Secure the weakest link.}
+		\item{Practice defense in depth.}
+		\item{System should fail securely.}
+		\item{Follow the principle of least privilege.}
+		\item{Compartmentalize system.}
+		\item{System should be simple.}
+		\item{Promote privacy.}
+		\item{Remember that hiding secrets is hard.}
+		\item{Reluctant to trust.}
+		\item{Use community resources (well-tested solutions).}
+\end{enumerate}
+The second set of criteria focuses on software development problems which can lead to software security holes and are buffer overflows, poor access control mechanisms and race conditions.The last set of criteria can be described as how well a specific security pattern might respond to different categories of attacks as they are described by Howard and LeBlanc (2002) \cite{Howard:2002:WSC:579079}. The model purposed by Howard and LeBlanc is called \textbf{STRIDE} model. The different attacks are \textbf{S}poofing identity attacks, \textbf{T}ampering with data attacks, \textbf{R}epudiation attacks, \textbf{I}nformation disclosure attacks, \textbf{D}enial of Service (DoS) attacks and \textbf{E}levation of privilege attacks.
 
 
-\subsection{Security Evaluation using Vulnerability Assessment and Penetration Testing (VAPT)}
+\subsection{Vulnerability Assessment and Penetration Testing (VAPT)}
 Vulnerability assessment is the process of scanning the system or software or a network to find out the weakness and loophole in that. These loopholes can provide back-door for the  attacker to attack the victim. A system may have access control vulnerability, Boundary condition vulnerability, Input validation vulnerability, Authentication Vulnerabilities, Configuration Weakness Vulnerabilities, and Exception Handling Vulnerabilities etc. \cite{GOEL2015710}.
 
 Penetration testing is the next step after vulnerability assessment. Penetration testing is the process of exploiting the system in an authorized manner to find out the possible exploits in the system. In penetration testing, the tester has the authority to do penetration testing and intently exploit the system and find out possible exploits. The life cycle of VAPT shown in Fig. \ref{fig:vapt_lifecycle}.
@@ -252,18 +276,15 @@ The typical VAIT set up for security evaluation in case of a web application is 
 \end{figure}
 The automated attack of a web application is a multistage procedure that includes: preparation stage, vulnerability injection stage, attack load generation stage, and attack stage. The collection of information about the web application pages and their links can be done manually or using a web crawler for the preparation stage. In order to keep the same conditions for all the applications analyzed all the tests were done using the same web crawler (\textbf{Acunetix} web vulnerability scanner). Refer the Fig. \ref{fig:web_evaluation_results} for results of the security evaluation of target web applications. The tool took approximately 11 minutes in the attack stage of the TikiWiki, 12 minutes in the phpBB and 4 minutes in the MyReferences. The vulnerabilities injected represent all the "Missing Function Call Extended" SQLi types that can realistically be injected into the files used in the experiments. On average, the tool injected one vulnerability for every 129 lines of PHP code. Only 20 percent out of all the vulnerabilities injected could not be attacked. From the results its concluded that tool is effective in providing a sufficient number of realistic vulnerabilities in a web application and that these vulnerabilities can be successfully attacked. 
 
-\subsection{Evaluation of Qualitative Methods}
-The major advantages of qualitative method are it allows for putting in order risks according to priority, allows for determination of areas of greater risk in a short time and without bigger expenditures and analysis is relatively easy and cheap. However it does not allow for determination of probabilities and results using numerical measures and achieved results have general character, approximate etc.
-
-\section{Quantitative Security Evaluation}\label{sec:quantitative}
-'Quantitative' - means 'that is or may be estimated by quantity'. Quantitative security evaluation produces quantitative results which can be easily interpreted mathematically. Due to the similarities between security and dependability, the techniques for model-based techniques applied to the dependability domain has been adapted to evaluation of security. The difference is that dependability metrics measure the effect of natural or accidental failures whereas the security evaluation metrics measure the impact of intentional failures caused by attacks. A detailed discussion on the adaptation of model-based metrics from dependability to security is provided in [\citealp{1335467_Nicol}]. Dependability attributes include: \textbf{Reliability} - continuity of service , \textbf{Safety} - non-occurrence of catastrophic consequences, \textbf{Maintainability} - ability to undergo repairs and evolutions, \textbf{Availability} - readiness for usage, \textbf{Integrity} - data and programs are modified or destroyed only in a specified and authorized manner and \textbf{Confidentiality} - sensitive information is not disclosed to unauthorized recipients. Security evaluation is mainly concerned with primarily evaluating the last three attributes.
+\section{Quantitative Evaluation}\label{sec:quantitative}
+'Quantitative' - means 'that is or may be estimated by quantity'. Quantitative evaluation produces quantitative results which can be easily interpreted mathematically. Due to the similarities between security and dependability, the techniques for model-based techniques applied to the dependability domain has been adapted to evaluation of security. The difference is that dependability metrics measure the effect of natural or accidental failures whereas the security evaluation metrics measure the impact of intentional failures caused by attacks. A detailed discussion on the adaptation of model-based metrics from dependability to security is provided in [\citealp{1335467_Nicol}]. Dependability attributes include: \textbf{Reliability} - continuity of service , \textbf{Safety} - non-occurrence of catastrophic consequences, \textbf{Maintainability} - ability to undergo repairs and evolutions, \textbf{Availability} - readiness for usage, \textbf{Integrity} - data and programs are modified or destroyed only in a specified and authorized manner and \textbf{Confidentiality} - sensitive information is not disclosed to unauthorized recipients. Security evaluation is mainly concerned with primarily evaluating the last three attributes. The major quantitative evaluation methods are combinatorial methods adapted from dependability domain and state-based stochastic methods.
 
 \subsection{Combinatorial methods}
 These methods are used to evaluate system dependability measures. Reliability Block diagrams (RBD) and Fault Trees (FTs) are the typical combinatorial methods used in dependability analysis. These methods can be adapted to security domain like the method Attack Trees. 
 
 \textbf{Attack Trees} are used to evaluate security of the system. Attack trees are closely related to fault trees, they consider the security breach as a failure and illustrates the group of events that can cause the system failure in a combinatorial way. Attack tree models all possible attacks against a system. Its a formal method which describes security of systems and subsystems based on numerous attacks. 
 
-\textbf{Structure of an Attack Tree:} In attack trees the attacks of the systems are represented in the form a tree with root node represents the goal of attack and leaf nodes as the different ways to achieve the goal (atomic attacks). There are two kinds of root nodes AND nodes and OR nodes. An AND node represents an attack goal for which a set of subgoals (represented by leaf nodes) must be achieved in order for the attack to succeed. While an OR node represents an attack goal that can be achieved in several ways, which are represented by the OR node's children. Representation of an AND node OR node is given in Fig. \ref{fig:and_or_node}. As shown in figure in case of an AND node goal G$_0$ can be achieved if the attacker achieves each of G$_1$ through G$_n$ and in case of an OR node goal G$_0$S can be achieved if the attacker achieves any one of G$_1$ through G$_n$. 
+\textbf{Structure of an Attack Tree:} In attack trees the attacks of the systems are represented in the form a tree with root node represents the goal of attack and leaf nodes as the different ways to achieve the goal (atomic attacks). There are two kinds of root nodes AND nodes and OR nodes. An AND node represents an attack goal for which a set of subgoals (represented by leaf nodes) must be achieved in order for the attack to succeed. While an OR node represents an attack goal that can be achieved in several ways, which are represented by the OR node's children. Representation of an 'AND node' and 'OR node' is given in Fig. \ref{fig:and_or_node}. As shown in figure in case of an AND node goal G$_0$ can be achieved if the attacker achieves each of G$_1$ through G$_n$ and in case of an OR node goal G$_0$S can be achieved if the attacker achieves any one of G$_1$ through G$_n$. 
 
 \begin{figure}[h]
 	\centering
@@ -279,7 +300,7 @@ These methods are used to evaluate system dependability measures. Reliability Bl
 
 \textbf{Evaluating Attack Trees:} The leaf nodes can take Boolean value(e.g., possible versus impossible attacks) or Continuous value (e.g., probability that the attack will succeed/fail). A node's value is a function of its children's values. If the assigned value is Boolean then AND node's value is the Boolean and of all values of its children and OR node's value is the Boolean or of all values of its children. When cost value is considered, the value of the AND node is the sum of the values of its children, and the value of the OR node is the minimum of the values of its children. The attack tree can be used to evaluate different aspects of the system security, depending on the kind of value that is assigned to the leaf nodes.
 
-Attack trees thus help in providing a systematic ay to describe the security vulnerabilities and finally for the security assessment for making security decisions. The attack tree for a larger system can be modeled combining attack trees derived from different security features of the system.  
+Attack trees thus help in providing a systematic way to describe the security vulnerabilities and finally for the security assessment for making security decisions. The attack tree for a larger system can be modeled combining attack trees derived from different security features of the system.  
 
 \subsection{State-Based Stochastic Methods}
 In such models, the system is expressed as a finite state machine.  Each state of the system represents the security operational mode of the system. The states are modeled as one or more good states and one or more failure states. Good states are those in which the system is able to deliver the required services, even in the presence of attacks. Whereas, in security failure states, the system has been compromised by attacks in a way that its intended services can no longer be delivered. During the operation of the system continuously alternates between several possible states. A state transition is triggered by the appearance or remediation of a vulnerability i.e. the successful execution of an attack step or the responsive action performed by the security mechanism.
@@ -295,11 +316,11 @@ The major quantitative models based on stochastic models are described below.
 		
 	\begin{figure}[h]
 		\centering
-		\subfigure[1) X can guess Y's password; 2) X is in the Y's ".rhost"; 3) Y is a subset of X; 4) X can attack Y via Email; 5) Y uses a program owned by X; 6) X can modify a "setuid" program owned by Y.]
+		\subfigure[1) Forge an employment card; 2) Forge an authorization; 3) Breaking and entering; 4) Pick the lock; 5) Standing in; 6) Manger delegation.]
 		{\label{fig:privilege_graph}
 			\includegraphics[width=0.8\textwidth]{figures/privilege_graph.png}
 		}
-		\caption{Example of a privilege graph \cite{Dacier1996QuantitativeAO}.}
+		\caption{Example of a privilege graph.}
 		\label{fig:privilege_graph_example}
 	\end{figure}
 		
@@ -337,18 +358,47 @@ The major quantitative models based on attack graphs are described below.
 \end{enumerate}
 
 \subsection{Common Vulnerability Scoring System}
-The Common Vulnerability Scoring System (CVSS) is a frame work used to quantify the severity and risk of a vulnerability to an information asset in a computing environment.It was designed by NIST (National Institute of Standard and Technology) and a team of industry partners. A CVSS score is a decimal number in the range from 1 to 10. The security experts assign set of quality values to predefined attributes of given vulnerability and CVSS score for the desired vulnerability is calculated using the same. For every qualitative value of a given attribute has a predefined corresponding quantitative value. Using these quantitative values final CVSS score is calculated. The more vulnerabilities a software product has, the lower level of trustworthiness this software product has. The more severe vulnerabilities a software product has, the less secure this software will be.CVSS metrics for vulnerabilities are divided into three groups: Base metrics measure the intrinsic and fundamental characteristics of vulnerabilities that do not change over time or in different environments. Temporal metrics measure those attributes of vulnerabilities that change over time but do not change among user environments. Environmental metrics measure those vulnerability characteristics that are relevant and unique to a particular user's environment. Now a days Several vulnerability databases use CVSS to quantify the severity of reported vulnerabilities.
+The Common Vulnerability Scoring System (CVSS) is a frame work used to quantify the severity and risk of a vulnerability to an information asset in a computing environment.It was designed by NIST (National Institute of Standard and Technology) and a team of industry partners. A CVSS score is a decimal number in the range from 1 to 10. The security experts assign set of quality values to predefined attributes of given vulnerability and CVSS score for the desired vulnerability is calculated using the same. For every qualitative value of a given attribute has a predefined corresponding quantitative value. Using these quantitative values final CVSS score is calculated. The more vulnerabilities a software product has, the lower level of trustworthiness this software product has. The more severe vulnerabilities a software product has, the less secure this software will be.CVSS metrics for vulnerabilities are divided into three groups: Base metrics measure the intrinsic and fundamental characteristics of vulnerabilities that do not change over time or in different environments. Temporal metrics measure those attributes of vulnerabilities that change over time but do not change among user environments. Environmental metrics measure those vulnerability characteristics that are relevant and unique to a particular user's environment. Presently several vulnerability databases use CVSS to quantify the severity of reported vulnerabilities.
 
 In the paper, \cite{Wang:2009:SMS:1566445.1566509} applied CVSS to find out the security metrics for the software products. They had applied the derived security metrics formula for the Internet applications such as Mozilla Firefox 2, Microsoft Internet Explorer 6  and Microsoft Internet Explorer 7 to find out their vulnerabilty scores and finally the security metric. The final security metric scores for applications were Mozilla Firefox 2 = 6.7, Microsoft Internet Explorer 6 = 8.7 and Internet Explorer 7 = 7.9. 
 
-\subsection{Evaluation of Quantitative Methods}
-The major advantages of these methods are they allow for definition of consequences of incidents occurrence in quantitative way, what facilitates realization of costs and benefits analysis during selection of protections and they give more accurate image of risk. However quantitative measures depend on the scope and accuracy of defines measurement scale, results of analysis may be not precise and even confusing and these methods are generally more expensive, demanding greater experience and advanced tools.
+\section{Evaluation of Qualitative and Quantitative Methods}
+In this section finally a quick recap of qualitative and quantitative evaluation methods are presented. Refer Table \ref{table:1} for the glimpse of summary of these methods. The major advantages of qualitative method are it allows for putting in order risks according to priority, allows for determination of areas of greater risk in a short time and without bigger expenditures and analysis is relatively easy and cheap. However it does not allow for determination of probabilities and results using numerical measures and achieved results have general character, approximate etc.
+
+The major advantages of quantitative methods are they allow for definition of consequences of incidents occurrence in quantitative way, what facilitates realization of costs and benefits analysis during selection of protections and they give more accurate image of risk. However quantitative measures depend on the scope and accuracy of defines measurement scale, results of analysis may be not precise and even confusing and these methods are generally more expensive, demanding greater experience and advanced tools.
+
+\begin{table}[ht]
+	\centering\small
+	\caption{Summary of qualitative and quantitative methods}
+	\label{table:1}
+		\begin{tabular}{p{2in}|p{2in}}
+			\toprule
+			Qualitative Evaluation & Quantitative Evaluation \\
+			\midrule
+			Putting in order risks according to priority
+			 & Definition of consequences of incidents occurrence in quantitative way \\ 
+			Determination of greater risks in short time
+			 & Facilitates realization of costs and benefits analysis during selection of protections \\
+			Analysis is relatively easy and cheap
+			 & More accurate image of risk \\ 
+			Lack of numerical measures for analysis
+			& Depend on the scope and accuracy of defined measurement scale \\ 
+			Does not facilitate realization of costs and benefits analysis during selection of protections
+			& Analysis results may not be precise and even confusing \\ 
+			Results have general character, approximate etc.
+			& More expensive, Requires greater experience and advanced tools \\ 
+			\bottomrule
+		\end{tabular}
+\end{table}
 	
 \section{Conclusions}\label{sec:conclusions}
-In this paper detailed analysis of security evaluation is presented. Qualitative and Quantitative security evaluation methods are discussed. Qualitative security evaluation methods are focused on detection and prevention of vulnerabilities while the Quantitative methods provide a characterization of security risks in terms of vulnerabilities present in the software. Such characterization of vulnerabilities can provide us metrics that can be used by the developers and potential users. Results of these evaluation methods are useful in developing guidelines for allocation of resources for security testing, scheduling, and development of security patches. Furthermore, it can be used by the users for assessing risk and estimating needed redundancy in resources and procedures to handle potential breaches. Security evaluation can be useful to know existing threats and potential vulnerabilities of your system, e.g., to avoid them in future systems. 
+In this paper detailed analysis of security evaluation is presented. Qualitative and Quantitative evaluation methods are discussed. Qualitative evaluation methods are focused on detection and prevention of vulnerabilities while the Quantitative methods provide a characterization of security risks in terms of vulnerabilities present in the software. Such characterization of vulnerabilities can provide us metrics that can be used by the developers and potential users. Results of these evaluation methods are useful in developing guidelines for allocation of resources for security testing, scheduling, and development of security patches. Furthermore, it can be used by the users for assessing risk and estimating needed redundancy in resources and procedures to handle potential breaches. Security evaluation can be useful to know existing threats and potential vulnerabilities of your system, e.g., to avoid them in future systems. 
 
-In this survey only a few of the security evaluation methods are discussed. But there are so many security evaluation methods available and the major challenge would be choosing the right security evaluation method for the corresponding software system. This is often a difficult task. Usually for the security evaluation of software systems (Web applications, Network management) different security evaluation methods are applied, their results are compared and the best among them is chosen. In case complex systems several methods are combined to produce a better result. This makes the job of the security expert challenging. The area of security evaluation is growing rapidly and lately even machine learning concepts are used for the same.  
+In this survey only a few of the security evaluation methods are discussed. But there are so many security evaluation methods and the major challenge would be choosing the right security evaluation method for the respective software system. This is often a difficult task. Usually for the security evaluation of software systems (Web applications, Network management) different security evaluation methods are applied, their results are compared and the best among them is chosen. In case of complex systems several methods are combined to produce a better result. This makes the job of security expert challenging. The area of security evaluation is growing rapidly and lately even machine learning concepts are used for the same.  
 
 \bibliography{template}
+
+\includepdf[pages={1-6}]{figures/Review_Feedback_Comments.pdf}
+
 
 \end{document}
