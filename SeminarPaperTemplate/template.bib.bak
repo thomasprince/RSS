@@ -161,4 +161,16 @@
   address   = {Alexandria, VA, USA},
 }
 
+@TechReport{Ortalo97informationsystems,
+  author      = {Rodolphe Ortalo},
+  title       = {Information systems security: Specification and quantitative evaluation},
+  institution = {DEVA ESPRIT LONG TERM RESEARCH PROJECT NO. 20072},
+  year        = {1997},
+}
+
+@Misc{Rot_itrisk,
+  author = {Artur Rot},
+  title  = {IT Risk Assessment: Quantitative and Qualitative Approach},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

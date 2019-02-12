@@ -1,9 +1,17 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alkussayer and Allen(2010)]{5564015}
+A.~Alkussayer and W.~H. Allen.
+\newblock A scenario-based framework for the security evaluation of software
+  architecture.
+\newblock In \emph{2010 3rd International Conference on Computer Science and
+  Information Technology}, volume~5, pages 687--695, July 2010.
+\newblock \doi{10.1109/ICCSIT.2010.5564015}.
 
 \bibitem[Cynthia~Phillips(1998)]{CynthiaPhillips1998}
 L.~P.~S. Cynthia~Phillips.
@@ -94,6 +102,13 @@ D.~M. Nicol, W.~H. Sanders, and K.~S. Trivedi.
 \newblock ISSN 1545-5971.
 \newblock \doi{10.1109/TDSC.2004.11}.
 
+\bibitem[Ortalo(1997)]{Ortalo97informationsystems}
+R.~Ortalo.
+\newblock Information systems security: Specification and quantitative
+  evaluation.
+\newblock Technical report, DEVA ESPRIT LONG TERM RESEARCH PROJECT NO. 20072,
+  1997.
+
 \bibitem[Ramos et~al.(2017)Ramos, Lazar, Filho, and Rodrigues]{8017389_Ramos}
 A.~Ramos, M.~Lazar, R.~H. Filho, and J.~J. P.~C. Rodrigues.
 \newblock Model-based quantitative network security metrics: A survey.
@@ -101,6 +116,10 @@ A.~Ramos, M.~Lazar, R.~H. Filho, and J.~J. P.~C. Rodrigues.
   (4):\penalty0 2704--2734, Fourthquarter 2017.
 \newblock ISSN 1553-877X.
 \newblock \doi{10.1109/COMST.2017.2745505}.
+
+\bibitem[Rot()]{Rot_itrisk}
+A.~Rot.
+\newblock It risk assessment: Quantitative and qualitative approach.
 
 \bibitem[Wang et~al.(2009)Wang, Wang, Guo, and
   Xia]{Wang:2009:SMS:1566445.1566509}
